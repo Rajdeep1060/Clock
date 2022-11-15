@@ -1,0 +1,134 @@
+* {
+    padding: 0;
+    margin: 0;
+    background-color: #04080a;
+}
+
+#clockcontainer {
+    position: relative;
+    margin: auto;
+    width: 350px;
+    height: 350px;
+    background: url(clock.jpg) no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: 0px -5px 5px rgba(255, 255, 255, 0.05),
+        inset 0px -5px 5px rgba(255, 255, 255, 0.05),
+        0px 5px 5px rgba(0, 0, 0, 0.3),
+        inset 0px 5px 5px rgba(0, 0, 0, 0.3);
+    margin-top: 10px;
+}
+
+
+
+
+#center {
+    position: absolute;
+    margin: auto;
+    background-color: brown;
+    height: 5%;
+    width: 5%;
+    top: 47%;
+    left: 46.8%;
+    border-radius: 50%;
+}
+
+#hour {
+    position: absolute;
+    margin: auto;
+    background-color: violet;
+    height: 29%;
+    width: 1%;
+    top: 21%;
+    left: 48.8%;
+    transform-origin: bottom;
+    border-radius: 20%;
+}
+
+#minute {
+    position: absolute;
+    margin: auto;
+    background-color: rgba(32, 211, 116, 0.368);
+    height: 34%;
+    width: 1%;
+    top: 15%;
+    left: 48.8%;
+    transform-origin: bottom;
+    border-radius: 20%;
+}
+
+#second {
+    position: absolute;
+    margin: auto;
+    background-color: rgba(18, 206, 249, 0.368);
+    height: 38%;
+    width: 1%;
+    top: 11%;
+    left: 48.8%;
+    transform-origin: bottom;
+    border-radius: 20%;
+}
+
+#digital {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: auto;
+    height: 122px;
+    width: 350px;
+    margin-top: 10px;
+}
+
+.block {
+    height: 100px;
+    width: 100px;
+    color: #ffff;
+    line-height: 206%;
+    font-size: 46px;
+    text-align: center;
+    border-radius: 30%;
+    box-shadow: 0px -5px 5px rgba(255, 255, 255, 0.05),
+        inset 0px -5px 5px rgba(255, 255, 255, 0.05),
+        0px 5px 5px rgba(0, 0, 0, 0.3),
+        inset 0px 5px 5px rgba(0, 0, 0, 0.3);
+    margin-top: 10px;
+
+}
+
+#datesection {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: auto;
+    height: 122px;
+    width: 350px;
+    margin-top: 10px;
+}
+
+.mj {
+    height: 100px;
+    width: 100px;
+    color: #ffff;
+    line-height: 206%;
+    font-size: 46px;
+    text-align: center;
+    border-radius: 30%;
+    box-shadow: 0px -5px 5px rgba(255, 255, 255, 0.05),
+        inset 0px -5px 5px rgba(255, 255, 255, 0.05),
+        0px 5px 5px rgba(0, 0, 0, 0.3),
+        inset 0px 5px 5px rgba(0, 0, 0, 0.3);
+    margin-top: 10px;
+}
+
+#weather {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: auto;
+    height: 122px;
+    width: 350px;
+    margin-top: 10px;
+}
